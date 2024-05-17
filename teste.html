@@ -4,60 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preencha o login </title>
-    <style>
-        body{
-            font-family: system-ui, -apple-system;
-            background:url(./fotos/img.jpg) no-repeat;}
-            div{
-                background-color:rgba(0,0,0,0.5);
-                background-position: center;
-                position:absolute;
-                top:50%;
-                left:50%;
-                transform: translate(-50%,-50%);
-                padding:80px;
-                border-radius: 20px;
-                color: white;}
-            input{
-                padding:15px;
-                border:none;
-                outline:none;
-                font-size: 15px;  
-
-                 }
-
-                 button{
-                    background-color:yellowgreen;
-                    padding: 15px;
-                    border: none;
-                    width: 100%;
-                    font-size: 15px;}
-
-                    button:hover{
-                        background-color:deepskyblue;
-                        cursor:pointer;
-                        font-size: 20px;
-                        
-                    }   
-
-                    
-    
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
+
+<nav class="navbar">
+    <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="rightNav">
+        <input type="text" name="search"
+               id="search" placeholder="Search">
+        <button class="btn btn-sm">Search</button>
+    </div>
+</nav>
+
 <body>
-    <div>
+    
+    <div class="log">
         <h1>Login</h1>
 
-        <input type="text"placeholder="E-mail">
+        <input type class ="text"placeholder="E-mail">
         <br>
         <br>
         <input type="password"placeholder='Senha'>
         <br>
+       <label> <input type="checkbox"placholder='Remember-me'>Lembre-se de mim</label>
+       <br>
+       <br>
+        <button class="enter">Entrar</button>
         <br>
-        <input type="checkbox"placholder='Remember-me'>
-
-       
-        <button>Entrar</button>
+        <br>
+      <a href="http://127.0.0.1:5500/registro.html" target="_blank" class="button">Registre-se</a>
     </div>
     
 </body>
