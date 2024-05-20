@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 html{
@@ -146,3 +147,142 @@ html{
                   
 
                  
+=======
+
+        body{
+            font-family: system-ui, -apple-system;
+            background:url(./v1016-b-09.jpg) no-repeat center center fixed;
+            background-size:cover;
+        }
+            
+        .navbar{
+
+                display: flex;
+                position: sticky;
+                align-items: center;
+                justify-content: space-between;
+                top: 0px;
+                background-blend-mode: darken;
+            background-size: cover;
+            color: white;
+            padding: 10px 20px;
+    
+        }
+ 
+        .nav-list {
+            display: flex;
+            list-style: none;
+            justify-content:space-between;
+        }
+            
+
+        .nav-list li {
+            margin-right: 20px;
+            padding:10px;
+            text-align:center;
+        }
+ 
+        .nav-list li:last-child {
+            margin-right: 0;
+        }
+ 
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+ 
+        .nav-list li a:hover {
+            color: #ffd700;
+            /* Change the color on hover */
+        }
+ 
+
+        .rightNav {
+            text-align: right;
+        }
+ 
+        #search {
+            padding: 8px;
+            font-size: 16px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+        }
+ 
+        .btn {
+            background-color: #ffd700;
+            color: #000;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+ 
+        .btn:hover {
+            background-color: #000;
+            /* Change the background color on hover */
+            color: #ffd700;
+        }
+        
+    
+            div.log{
+                background-color:rgba(0,0,0,0.5);
+                background-position: center;
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                padding:80px;
+                border-radius: 20px;
+                color: white;}
+            input{
+                padding:12px;
+                border:none;
+                outline:none;
+                font-size: 15px; 
+                font-color:white; 
+
+                 }
+                 a.button {
+                    background-color:white;
+                    padding: 10px;
+                    border:none;
+                    width:100%;
+                    font-size:12px;
+                    
+                 }
+                    a.button:hover{
+                        background-color:deepskyblue;
+
+                    }
+
+
+                 .enter{
+                    background-color:yellowgreen;
+                    padding: 15px;
+                    border: none;
+                    width: 100%;
+                    font-size: 15px;}
+
+                    .enter:hover{
+                        background-color:deepskyblue;
+                        cursor:pointer;
+                        font-size: 20px;
+                        
+                    }   
+
+                    .formulario{
+                        padding:10px;
+                        
+                    }
+                    .form{
+                        display:flex
+                    }
+
+                    .rightNav{
+                        background-color:
+                    }
+    
+>>>>>>> ab4c622db646ba2c759c65882a3c47fb31e1076b
