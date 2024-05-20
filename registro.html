@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="about.html" target="_blank">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search"
+                   id="search" placeholder="Search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+    
+<div class="container">
+
+<h1>Formulário de Cadastro</h1>
+<form method="post" action="registro_dados.php">
+    <input type="text" placeholder="Nome completo">
+    <br><br>
+    <input type="password" placeholder="Senha">
+    <br><br>
+    <input type="number" placeholder="Número para contato">
+    <br><br>
+    <input type="email" placeholder="E-mail">    <input type="button" value="Enviar"
+    onclick="msg()">
+    <script>
+        function msg() {
+          alert("Você foi cadastrado");
+        }
+        </script>
+    
+</form>
+
+
+ </div>
+    
+</body>
+</html>
